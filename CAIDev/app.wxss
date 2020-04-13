@@ -1,0 +1,10 @@
+/**app.wxss**/
+@import "./styles/iconfont.wxss";
+
+page {
+    --themeColor:#eb4450;
+}
+
+image {
+  width: 100%;
+}

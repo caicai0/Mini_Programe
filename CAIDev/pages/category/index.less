@@ -1,0 +1,50 @@
+// out: index.wxss
+Page {
+    height: 100%;
+}
+
+.cates {
+    height: 100%;
+    
+    .cates_container {
+        display: flex;
+        height: ~'calc(100vh - 75rpx)';
+        .left_menu {
+            flex: 2;
+            .menu_item {
+                height: 80rpx;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30rpx;
+            }
+        }
+        .right_content {
+            flex: 5;
+            .goods_title{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10rpx;
+            }
+            .goods_group {
+                .goods_list {
+                    display: flex;
+                    flex-wrap: wrap;
+                    navigator {
+                        text-align: center;
+                        width: 33.33%;
+                        display: inline;
+                        image {
+                            width:60%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.active{
+    color: red;
+}
